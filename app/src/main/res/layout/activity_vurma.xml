@@ -4,8 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
+    android:background="#F6E3AC"
     android:layout_height="match_parent"
     tools:context=".VurmaActivity">
+
     <TextView
         android:id="@+id/ResultTextView"
         android:layout_width="wrap_content"
@@ -19,7 +21,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         android:textSize="50dp"
         android:hint="result"
-        android:background="@color/mavi"
-        />
+        android:background="@color/mavi" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
