@@ -13,6 +13,15 @@
         android:theme="@style/Theme.Kalkulyator_branch"
         tools:targetApi="31">
         <activity
+            android:name=".BolmeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BolmeActvity"
+            android:exported="false" />
+        <activity
+            android:name=".VurmaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
