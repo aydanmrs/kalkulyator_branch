@@ -7,6 +7,10 @@ android {
     namespace = "com.example.kalkulyator_branch"
     compileSdk = 34
 
+    buildFeatures{
+        viewBinding=true
+    }
+
     defaultConfig {
         applicationId = "com.example.kalkulyator_branch"
         minSdk = 24
